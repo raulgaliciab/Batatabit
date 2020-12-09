@@ -1,0 +1,14 @@
+{
+  "name": "mobilefirst",
+  "version": "1.0.0",
+  "description": "Curso de Responsive Design: Mobile First",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mobile"
+  ],
+  "author": "Raul Galicia",
+  "license": "MIT"
+}
