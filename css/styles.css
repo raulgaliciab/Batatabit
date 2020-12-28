@@ -90,7 +90,7 @@ header img {
   width: 13px;
   height: 8px;
   margin-left: 10px;
-  background-image: url("./assets/icons/down-arrow.svg");
+  background-image: url("../assets/icons/down-arrow.svg");
 }
 main {
   width: 100%;
@@ -115,7 +115,7 @@ main {
   height: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background-image: url("./assets/img/Bitcoin.svg");
+  background-image: url("../assets/img/Bitcoin.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -147,7 +147,12 @@ main {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
+}
+.currency__table .coin--title {
   color: var(--bitcoin-orange);
+}
+.currency__table .commission--title {
+  color: var(--secundary-blue);
 }
 .currency__table--container {
   width: 90%;
@@ -191,7 +196,7 @@ main {
   width: 15px;
   height: 15px;
   margin-left: 10px;
-  background-image: url(./assets/icons/trending-down.svg);
+  background-image: url(../assets/icons/trending-down.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -201,7 +206,7 @@ main {
   width: 15px;
   height: 15px;
   margin-left: 10px;
-  background-image: url(./assets/icons/trending-up.svg);
+  background-image: url(../assets/icons/trending-up.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -212,8 +217,13 @@ main {
   margin: 0 auto;
   margin-top: 15px;
   padding: 8px;
-  background-color: var(--soft-orange);
   border-radius: 8px;
+}
+.coin--updated {
+  background-color: var(--soft-orange);
+}
+.commission--updated {
+  background-color: var(--soft-blue);
 }
 .currency__table--date p {
   font-size: 1.2rem;
@@ -235,7 +245,7 @@ main {
   height: 25px;
   top: -10px;
   left: calc(50% - 20px);
-  background-image: url(./assets/icons/batata.svg);
+  background-image: url(../assets/icons/batata.svg);
 }
 .benefits .benefits__title {
   width: 90%;
@@ -280,16 +290,16 @@ main {
   background-repeat: no-repeat;
 }
 .clock {
-  background-image: url(./assets/icons/clock.svg);
+  background-image: url(../assets/icons/clock.svg);
 }
 .eye {
-  background-image: url(./assets/icons/eye.svg);
+  background-image: url(../assets/icons/eye.svg);
 }
 .dollar {
-  background-image: url(./assets/icons/dollar-sign.svg);
+  background-image: url(../assets/icons/dollar-sign.svg);
 }
 .check {
-  background-image: url(./assets/icons/check-circle.svg);
+  background-image: url(../assets/icons/check-circle.svg);
 }
 .benefits__cards--title {
   margin-bottom: 15px;
@@ -308,7 +318,7 @@ main {
   width: 100%;
   min-width: 320px;
   height: 50vh;
-  background-image: url(./assets/img/bitcoinbaby2x.jpg);
+  background-image: url(../assets/img/bitcoinbaby2x.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

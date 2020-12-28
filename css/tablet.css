@@ -1,0 +1,17 @@
+.currency {
+  display: flex;
+  width: 930px;
+  margin: 0 auto;
+}
+.benefits__cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 930px;
+  margin: 0 auto;
+}
+.bitcoin-img {
+  background-attachment: fixed;
+}
+.plans__cards {
+  justify-content: center;
+}
