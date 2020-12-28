@@ -433,7 +433,7 @@ main {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url("./assets/icons/orange-right-arrow.svg");
+  background-image: url("../assets/icons/orange-right-arrow.svg");
   vertical-align: text-bottoms;
 }
 footer {
