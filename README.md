@@ -9,3 +9,5 @@ Topics used during development:
 * Media queries
 * Figma
 * Chrome DevTools
+
+Deployed project: https://batatabit-blue.vercel.app/
